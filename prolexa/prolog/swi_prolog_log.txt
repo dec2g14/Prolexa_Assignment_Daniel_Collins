@@ -1,0 +1,17 @@
+Change Working directory:
+
+working_directory(CWD,'C:/Users/dec2g/OneDrive/Documents/GitHub/Computational_Logic_Assignment/prolexa/prolog').
+CWD = 'c:/users/dec2g/onedrive/documents/prolog/'.
+
+Consult Prolexa.pl (file, consult)
+
+Run prolexa_cli:
+
+?- prolexa_cli.
+
+File-Interupt
+"make."
+
+Ask for all info:
+
+"Tell me everything you know".
