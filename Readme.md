@@ -1,4 +1,8 @@
 [![Read Assignment Description](https://img.shields.io/badge/assignment-description-blue)](assignment.md)  
+---
+## [Link to Assignment Repository](https://github.com/dec2g14/Prolexa_Assignment_Daniel_Collins.git) ##
+https://github.com/dec2g14/Prolexa_Assignment_Daniel_Collins.git
+---
 
 # COMSM0022 Assignment: Extending the Reasoning Capabilities of Prolexa Q&A Assistant #
 ## Introduction ##
