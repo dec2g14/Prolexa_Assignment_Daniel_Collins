@@ -37,7 +37,7 @@ pred(penguin, 1,[n/penguin]). %TEST 4
 % Added for tests
 pred(god,   1,[a/god,n/god]).% Test 2
 pred(immortal,  1,[a/immortal,n/immortal]). % Test 2
-pred(cool,  1,[a/cool,n/cool]). % Test 1: Adding addjectives (cool isn't really a noun though)
+%pred(cool,  1,[a/cool,n/cool]). % Test 1
 pred(happy, 1, [a/happy]). % Test 3
 pred(teacher, 1, [n/teacher]). %Test 3
 
@@ -103,8 +103,8 @@ determiner(p,X=>B,X=>H,[(H:-B)]) --> [all].
 
 %proper_noun(s,tweety) --> [tweety].
 proper_noun(s,peter) --> [peter].
-proper_noun(s,tweety) --> [tweety]. %TEST 4
-proper_noun(s,opus) --> [opus]. %TEST 4
+%proper_noun(s,tweety) --> [tweety]. %TEST 4
+%proper_noun(s,opus) --> [opus]. %TEST 4
 proper_noun(s,odin) --> [odin]. % Test 2
 proper_noun(s,donald) --> [donald]. %Test 3
 

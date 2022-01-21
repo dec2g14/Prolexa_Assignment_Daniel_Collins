@@ -33,16 +33,7 @@ stored_rule(1,[(not(immortal(peter)):-true)]).
 %stored_rule(1,[(teacher(donald):-true)]). % Test 1b: Works the same as peter is human therefore mortal
 %stored_rule(1,[(happy(donald):-true)]). % Test 1b: Rules don't work both ways, can't deduce that donald is a teacher from this.
 stored_rule(1,[(not(happy(donald)):-true)]). %Test 3: 
-%TEST 4 Tweety is a penguin
-%stored_rule(1,[(penguin(tweety):- true)]).
-%TEST 4 Opus is a bird
-%stored_rule(1,[bird(opus):- true)]).
-%TEST 4 A penguin is a bird
-%stored_rule(1,[(bird(X):-penguin(X))]).
-%TEST 4 Default rule with exeption, "bird flies"
-%stored_rule(1,[(default(flies(X):-bird(X)))]). %TEST 4
-%TEST 4 Exception to the default rule, 
-%stored_rule(1,[(not flies(X)):-penguin(X))]).
+
 
 
 
